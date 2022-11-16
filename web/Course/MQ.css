@@ -1,0 +1,41 @@
+@media only screen and (min-device-width : 820px) and (max-device-width : 1180px) {
+    .block1 {
+        display:block;
+    }
+    #headerimage {
+        background-image: url("img/headerImage.jpg");
+        height: 250px;
+        background-size: 525px 250px;
+    }
+    #vportfolio {
+        display: none;
+    }
+    img#logo {
+        display: none;
+    }
+    .headtext1 {
+        margin-left: 6%;
+    }
+    .container {
+        width: 525px;
+    }
+    #check1 {
+        width: 18px;
+    }
+    .check {
+        width: 18px;
+        padding-top: 25px;
+    }
+    .bblock {
+        width: 525px;
+    }
+    .portfolioimg {
+        padding-left: 0px;
+    }
+    #logofooter {
+        padding-left: 20px; 
+        width: 119px; 
+        height: 64px; 
+        padding-top: 20px;
+    }
+}

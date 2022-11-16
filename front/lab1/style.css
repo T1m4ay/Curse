@@ -1,0 +1,84 @@
+
+.container2 { 
+    display: flex;
+    padding-left: 8%;
+    }
+.container { 
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+.mmm {
+    padding-top: 2.9em;
+    padding-left: 6.5em;
+    color: orange;
+  }
+.mmm1 {
+    padding-top: 2.9em;
+    padding-left: 2em;
+  }
+.mmm2 {
+  padding-left: 1em;
+  padding-bottom: 0.5em; 
+  font-size: 1.1rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.mmm3 {
+  padding-left: 16.5em;
+}
+.mmm4 {
+  font-size: .9rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  width: 350px;
+}
+.mmm5 {
+  padding-left: 1em;
+  font-size: .9rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  width: 350px;
+}
+.mmm6 {
+  padding-top: 1.5em;
+  color: orange;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.mmm7 {
+  padding-left: 2.3em;
+  font-size: .9rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  width: 270px;
+}
+.mmm8 {
+  padding-left: 1em;
+  font-size: .9rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  width: 650px;
+}
+.mmm9 {
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: .6rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  width: 650px;
+}
+.container2 > div {
+    font-size: .7rem;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+  }
+.container > div {
+    font-size: 1vw;
+    margin-top: 1em;
+  }
+hr {
+    border-top: 1px solid grey;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+.container1{
+  display: flex;
+  padding-bottom: 0.5em;
+}
+.back {
+  background-color: #d7d7d7 ;
+}
+

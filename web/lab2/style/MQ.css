@@ -1,0 +1,78 @@
+@media only screen and (min-device-width : 820px) and (max-device-width : 1180px) {
+    #c1{
+        width: 680px;
+        height: 1150px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    #c11{
+        width: 680px;
+        height: 1150px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    #c11{
+        height: 75%;
+    }
+    img.imgs {
+        display: none;
+      }
+    .cc{
+        width: 580px;
+        height: 110px;
+    }
+    .cc2{
+        width: 580px;
+        height: 85px;
+    }
+    .ieye{
+        padding-top: 40px;
+        padding-left: 195px;
+        width: 40px;
+    }
+    .ieye2{
+        padding-top: 20px;
+        padding-left: 215px;
+        width: 35px;
+        height: 35px;
+    }
+    .st{
+        margin-top: 40px;
+    }
+    .st2{
+        margin-top: 7px;
+    }
+    #bt{
+        width: 580px;
+        height: 85px;
+    }
+    #bt{
+        width: 580px;
+        height: 85px;
+
+        margin-top: 45px;
+    }
+    #rmb{
+        font-size: 1.4em;
+        font-family: 'Poppins';
+    }
+    #fp{
+        margin-left: 170px;
+    }
+    #l2{
+        margin-top: 28px;
+        margin-left: 240px;
+    }
+    #regis{
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+    #regis2{
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+}

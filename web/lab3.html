@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>My first HTML page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script>
+            let x = +(prompt( 'x=' ));
+            // IF
+            // if (x <= 0 ) {
+            //    console.log( 'F(x)=', (-1)*x);
+            // } else if (x >  0 && x < 4 ) {
+            //    console.log( 'F(x)=', Math.pow(x, 2));
+            // } else {
+            //    console.log( 'F(x)=',4 );
+            // }    
+            
+            // if (x <= 0 ) {
+            //    console.log( 'F(x)=', (-1)*x);
+            // } else if (x <  0 && x < 2 ) {
+            //    console.log( 'F(x)=', Math.pow(x, 2));
+            // } else {
+            //    console.log( 'F(x)=',4 );
+            // }    
+
+            // if (x < 0 ) {
+            //    console.log( 'F(x)=', 0);
+            // } else if (x % 2 == 0) {
+            //    console.log( 'F(x)=', 1)     ;
+            // } else {
+            //    console.log( 'F(x)=', -1);
+            // }  
+
+            if (x % 4 == 0 && (x % 100 != 0 || x % 400 == 0)){
+                    console.log(366)
+            }
+            else{
+                    console.log(365)
+                }
+
+            // if (x == 0){
+            //     console.log('Нулевое')
+            // }
+            // else{
+            //     if (x > 0){
+            //         console.log('Положительное ')
+            //     }
+            //     else{
+            //         console.log('Отрицательное ')
+            //     }
+            //     if (x % 2 == 0){
+            //         console.log('чётное ')
+            //     }
+            //     else{
+            //         console.log('нечётное ')
+            //     }
+            // }
+            // console.log('число ')
+
+            // if (x % 2 == 0){
+            //     console.log('Чётное ')
+            // }
+            // else{
+            //     console.log('Нечётное ')
+            // }
+
+            // if (x > 99){
+            //     console.log('трёхзначное ')
+            // }
+            // if (x <= 99 && x > 9){
+            //     console.log('двухзначное ')
+            // }
+            // if (x <= 9){
+            //     console.log('однозначное ')
+            // }
+            // if (x < 0){
+            //     console.log('минусовое ')
+            // }
+            // console.log('число ')
+
+            // CASE
+
+            // switch (Math.trunc(x/10)) {
+            //     case 2:
+            //         console.log( 'Двадцать ' );
+            //         break;
+            //     case 3:
+            //         console.log( 'Тридцать ' );
+            //         break;
+            //     case 4:
+            //         console.log( 'Сорок ' );
+            //         break;
+            //     case 5:
+            //         console.log( 'Пятьдесят ' );
+            //         break;
+            //     case 6:
+            //         console.log( 'Шестьдесят ' );
+            //         break;
+                
+            // switch (x%10) {
+            //     case 1:
+            //         console.log( 'один ' );
+            //         break;
+            //     case 2:
+            //         console.log( 'два ' );
+            //         break;
+            //     case 3:
+            //         console.log( 'три ' );
+            //         break;
+            //     case 4:
+            //         console.log( 'четыре ' );
+            //         break;
+            //     case 5:
+            //         console.log( 'пять ' );
+            //         break;
+            //     case 6:
+            //         console.log( 'шесть ' );
+            //         break;
+            //     case 7:
+            //         console.log( 'семь ' );
+            //         break;
+            //     case 8:
+            //         console.log( 'восемь ' );
+            //         break;
+            //     case 9:
+            //         console.log( 'девять ' );
+            //         break;
+
+            // switch (x%10) {
+            //     case 0:
+            //     case 5:
+            //     case 6:
+            //     case 7:
+            //     case 8:
+            //     case 9:
+            //         console.log("лет. ");
+            //         break;
+            //     case 1:
+            //         console.log("год. ");
+            //         break;
+            //     case 2:
+            //     case 3:
+            //     case 4:
+            //         console.log("года. ");
+            //         break;
+            //     }
+
+            
+            // if (Math.trunc(x/10) == 1)
+            //         switch (x%10) {
+            //         case 0:
+            //             console.log("десять учебных заданий. ");
+            //             break;
+            //         case 1:
+            //             console.log("одинадцать учебных заданий.");
+            //             break;
+            //         case 2:
+            //             console.log("двенадцать учебных заданий.");
+            //             break;
+            //         case 3:
+            //             console.log("тринадцать учебных заданий.");
+            //             break;
+            //         case 4:
+            //             console.log("четырнадцать учебных заданий.");
+            //             break;
+            //         case 5:
+            //             console.log("пятнадцать учебных заданий.");
+            //             break;
+            //         case 6:
+            //             console.log("шестнадцать учебных заданий.");
+            //             break;
+            //         case 7:
+            //             console.log("семнадцать учебных заданий.");
+            //             break;
+            //         case 8:
+            //             console.log("восемнадцать учебных заданий.");
+            //             break;
+            //         case 9:
+            //             console.log("девятнадцать учебных заданий.");
+            //             break;
+            //         }
+            //     else {
+            //         switch (Math.trunc(x/10)) {
+            //             case 2:
+            //                 console.log("двадцать ");
+            //                 break;
+            //             case 3:
+            //                 console.log("тридцать ");
+            //                 break;
+            //             case 4:
+            //                 console.log("сорок ");
+            //                 break;
+            //         }
+            
+            //         switch (x%10) {
+            //         case 1:
+            //             console.log("одно ");
+            //             break;
+            //         case 2:
+            //             console.log("два ");
+            //             break;
+            //         case 3:
+            //             console.log("три ");
+            //             break;
+            //         case 4:
+            //             console.log("четыре ");
+            //             break;
+            //         case 5:
+            //             console.log("пять ");
+            //             break;
+            //         case 6:
+            //             console.log("шесть ");
+            //             break;
+            //         case 7:
+            //             console.log("семь ");
+            //             break;
+            //         case 8:
+            //             console.log("восемь ");
+            //             break;
+            //         case 9:
+            //             console.log("девять ");
+            //             break;
+            //         }
+            
+            //         switch (x%10) {
+            //         case 0:
+            //         case 5:
+            //         case 6:
+            //         case 7:
+            //         case 8:
+            //         case 9:
+            //             console.log("учебных заданий.");
+            //             break;
+            //         case 1:
+            //             console.log("учебное задание.");
+            //             break;
+            //         case 2:
+            //         case 3:
+            //         case 4:
+            //             console.log("учебных задания.");
+            //             break;
+            //         }
+            //     }
+
+            // switch (Math.trunc(x/100)) {
+            //     case 1:
+            //         console.log("сто ");
+            //         break;
+            //     case 2:
+            //         console.log("двести ");
+            //         break;
+            //     case 3:
+            //         console.log("триста ");
+            //         break;
+            //     case 4:
+            //         console.log("четыреста ");
+            //         break;
+            //     case 5:
+            //         console.log("пятьсот ");
+            //         break;
+            //     case 6:
+            //         console.log("шестьсот ");
+            //         break;
+            //     case 7:
+            //         console.log("семьсот ");
+            //         break;
+            //     case 8:
+            //         console.log("восемьсот  ");
+            //         break;
+            //     case 9:
+            //         console.log("девятьсот  ");
+            //         break;
+            //     }
+ 
+            // if (Math.trunc((x%100)/10)==1)
+            //         switch (x%100) {
+            //         case 10:
+            //             console.log("десять");
+            //             break;
+            //         case 11:
+            //             console.log("одинадцать");
+            //             break;
+            //         case 12:
+            //             console.log("двенадцать");
+            //             break;
+            //         case 13:
+            //             console.log("тринадцать");
+            //             break;
+            //         case 14:
+            //             console.log("четырнадцать");
+            //             break;
+            //         case 15:
+            //             console.log("пятнадцать");
+            //             break;
+            //         case 16:
+            //             console.log("шестнадцать");
+            //             break;
+            //         case 17:
+            //             console.log("семнадцать");
+            //             break;
+            //         case 18:
+            //             console.log("восемнадцать");
+            //             break;
+            //         case 19:
+            //             console.log("девятнадцать");
+            //             break;
+            //         }
+            //     else {
+            //         switch (Math.trunc((x%100)/10)) {
+            //             case 2:
+            //                 console.log("двадцать ");
+            //                 break;
+            //             case 3:
+            //                 console.log("тридцать ");
+            //                 break;
+            //             case 4:
+            //                 console.log("сорок ");
+            //                 break;
+            //             case 5:
+            //                 console.log("пятьдесят ");
+            //                 break;
+            //             case 6:
+            //                 console.log("шестьдесят ");
+            //                 break;
+            //             case 7:
+            //                 console.log("семьдесят ");
+            //                 break;
+            //             case 8:
+            //                 console.log("восемьдесят ");
+            //                 break;
+            //             case 9:
+            //                 console.log("девяносто ");
+            //                 break;
+            //         }
+            
+            //             switch (x%10) {
+            //             case 1:
+            //                 console.log("один");
+            //                 break;
+            //             case 2:
+            //                 console.log("два");
+            //                 break;
+            //             case 3:
+            //                 console.log("три");
+            //                 break;
+            //             case 4:
+            //                 console.log("четыре");
+            //                 break;
+            //             case 5:
+            //                 console.log("пять");
+            //                 break;
+            //             case 6:
+            //                 console.log("шесть");
+            //                 break;
+            //             case 7:
+            //                 console.log("семь");
+            //                 break;
+            //             case 8:
+            //                 console.log("восемь");
+            //                 break;
+            //             case 9:
+            //                 console.log("девять");
+            //                 break;
+            //             }
+            //     }
+
+            // console.log("год ");
+ 
+            // switch ((x)%10) {
+            // case 0:
+            // case 1:
+            //     console.log("бел");
+            //     break;
+            // case 2:
+            // case 3:
+            //     console.log("черн");
+            //     break;
+            // case 4:
+            // case 5:
+            //     console.log("зелён");
+            //     break;
+            // case 6:
+            // case 7:
+            //     console.log("красн");
+            //     break;
+            // case 8:
+            // case 9:
+            //     console.log("жёлт");
+            //     break;
+            // }
+            
+            // switch ((x+1)%5) {
+            // case 0:
+            // case 1:
+            // case 2:
+            // case 3:
+            // case 4:
+            // case 5:
+            // case 9:
+            // case 10:
+            // case 11:
+            //     console.log("ой ");
+            //     break;
+            // case 6:
+            // case 7:
+            // case 8:
+            //     console.log("ого ");
+            //     break;
+            // }
+            
+            // switch ((x+8)%12) {
+            // case 0:
+            //     console.log("крысы");
+            //     break;
+            // case 1:
+            //     console.log("коровы");
+            //     break;
+            // case 2:
+            //     console.log("тигра");
+            //     break;
+            // case 3:
+            //     console.log("зайца");
+            //     break;
+            // case 4:
+            //     console.log("дракона");
+            //     break;
+            // case 5:
+            //     console.log("змеи");
+            //     break;
+            // case 6:
+            //     console.log("лошади");
+            //     break;
+            // case 7:
+            //     console.log("овцы");
+            //     break;
+            // case 8:
+            //     console.log("обезьяны");
+            //     break;
+            // case 9:
+            //     console.log("курицы");
+            //     break;
+            // case 10:
+            //     console.log("собаки");
+            //     break;
+            // case 11:
+            //     console.log("свиньи");
+            //     break;
+            // }
+
+            // let y = prompt( 'y=' );
+            
+            // switch (y) {
+            // case 1:
+            //     if (x>19) console.log("Водолей");
+            //     else console.log("Козерог");
+            //     break;
+            // case 2:
+            //     if (x>18) console.log("Рыбы");
+            //     else console.log("Водолей");
+            //     break;
+            // case 3:
+            //     if (x>20) console.log("Овен");
+            //     else console.log("Рыбы");
+            //     break;
+            // case 4:
+            //     if (x>19) console.log("Телец");
+            //     else console.log("Овен");
+            //     break;
+            // case 5:
+            //     if (x>20) console.log("Близнецы");
+            //     else console.log("Телец");
+            //     break;
+            // case 6:
+            //     if (x>21) console.log("Рак");
+            //     else console.log("Близнецы");
+            //     break;
+            // case 7:
+            //     if (x>22) console.log("Лев");
+            //     else console.log("Рак");
+            //     break;
+            // case 8:
+            //     if (x>22) console.log("Дева");
+            //     else console.log("Лев");
+            //     break;
+            // case 9:
+            //     if (x>22) console.log("Весы");
+            //     else console.log("Дева");
+            //     break;
+            // case 10:
+            //     if (x>22) console.log("Скорпион");
+            //     else console.log("Весы");
+            //     break;
+            // case 11:
+            //     if (x>22) console.log("Стрелец");
+            //     else console.log("Скорпион");
+            //     break;
+            // case 12:
+            //     if (x>21) console.log("Козерог");
+            //     else console.log("Стрелец");
+            //     break;
+            // }
+
+            // FOR
+            
+            // let y = prompt( 'y=' );
+
+            // var rez=0,xy = 0;
+            // for  (var i =1; i<=x; ++i){
+            //     xy=i;
+            //     for (var i2 =1; i2<=y; ++i2) {
+            //     xy = xy * i;
+            //     }
+            //     rez +=xy;
+            // }
+            // console.log(rez);
+
+            // var rez=0,pow=0;
+            // for  (var i =1; i<=x; ++i){
+            //     pow=i;
+            //     for (var i2 =1; i2<=i; ++i2) {
+            //     pow *=i;
+            //     }
+            //     rez +=pow;
+            // }
+            // console.log(rez);
+
+            // var rez=0,pow=0;
+            // for  (var i =1; i<=x; ++i){
+            //     pow=i;
+            //     for (var i2 =1; i2<=x-i; ++i2) {
+            //     pow *=i;
+            //     }
+            //     rez +=pow;
+            // }
+            // console.log(rez);
+
+            // let y = prompt( 'y=' );
+
+            // for  (let i =x; i<=y; i++){
+            //     for (let i2=1; i2<=i; i2++) {
+            //     console.log(i);
+            //     console.log(" ")
+            //     }
+            // }
+
+            // let y = prompt( 'y=' );
+
+            // x = Number(x);
+            // y = Number(y);
+            // for  (let i = 1; i<=(y-x)+1; i++){
+            //     for (let i2=1; i2<=i; i2++) {
+            //     console.log((x+i)-1);
+            //     console.log(" ")
+            //     }
+            // }
+
+            // WHILE
+
+            // var f1 = 1, f2 = 1, f = 0;
+ 
+            // while (f < x) {
+            //     f = f2 + f1;
+            //     f2 = f1;
+            //     f1 = f;
+            // }
+            // console.log('F_k-1 =', f2);
+            // console.log('F_k+1 =', f1 + f2);
+
+            // var f1 = 1, f2 = 1, f = 0, k = 2;
+            // while (f < x) {
+            //     ++k;
+            //     f = f2 + f1;
+            //     f2 = f1;
+            //     f1 = f;
+            // }
+            // console.log('k: ', k);
+
+            // var ak1=0,ak=2,k=1;
+            // while (Math.abs(ak-ak1)>=x) {
+            //     ++k;
+            //     ak1=ak;
+            //     ak=2+1/ak1;
+            // }
+            // console.log('K= ', k);
+            // console.log('A(k-1)=', ak1);
+            // console.log('A(k)=', ak);
+
+            // var ak1 = 1, ak = 2, ak2, k = 2;
+            // while (Math.abs(ak - ak1) >= x) {
+            //     ak2 = ak1;
+            //     ak1 = ak;
+            //     ak = (ak2 + 2 * ak1) / 3;
+            //     ++k;
+            // }
+            // console.log('K= ', k);
+            // console.log('A(k-1)=', ak1);
+            // console.log('A(k)=', ak);
+
+            // let y = prompt( 'y=' );
+            // let z = prompt( 'z=' );
+            // var k = 0, temp;
+            // while ((x - z) >= 0) {
+            //     x -= z;
+            //     temp = y;
+            //     while (temp - z >= 0) {
+            //         temp -= z;
+            //         ++k;
+            //     }
+            // }
+            // console.log('K= ', k);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,428 @@
+@import url(reset.css);
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins"), url(/font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins"), url(/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Poppins"), url(/font/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Poppins"), url(/font/Poppins/Poppins-Light.ttf);
+}
+body {
+  font-family: "Poppins";
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #fff;
+  --dark-light-icon: url("/images/moon.png");
+  --dark-light-icon-hover: url("/images/moon-focus.png");
+  --text-color: black;
+  --border-color: black;
+  --accent-color: #ff432a;
+  --text-second-color: #b5b5b5;
+  --button-text-color: #fff;
+  --banner-brightness: 100%;
+  --icon-color: black;
+  --icon-bg-color: #fff;
+}
+.dark-theme {
+  --bg-color: #030e10;
+  --dark-light-icon: url("/images/sun.png");
+  --dark-light-icon-hover: url("/images/sun-focus.png");
+  --text-color: #f9ffff;
+  --border-color: #f9ffff;
+  --accent-color: #ff432a;
+  --text-second-color: #c4cdcc;
+  --button-text-color: #fff;
+  --banner-brightness: 50%;
+  --icon-color: #fff;
+  --icon-bg-color: black;
+}
+
+.banner-container {
+  background: url(/images/banner.png) no-repeat;
+  filter: brightness(var(--banner-brightness));
+  width: calc(100%-560px);
+  height: inherit;
+  flex-grow: 2;
+  flex-shrink: 2;
+  background-size: cover;
+  z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-container {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.logo {
+  position: absolute;
+  left: 2em;
+  top: 2em;
+  z-index: 2;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.login {
+  min-width: 560px;
+  height: 100%;
+  background: var(--bg-color);
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 60%;
+}
+
+.theme {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0.3em 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.dark-light-button {
+  background: var(--dark-light-icon) no-repeat;
+  background-size: contain;
+  width: 2em;
+  height: 2em;
+  border: none;
+}
+
+.dark-light-button:hover {
+  background-image: var(--dark-light-icon-hover);
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.description a {
+  padding: 0 0.2em;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.input-section {
+  margin: 2em 0;
+}
+.input-field {
+  margin-top: 2em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.input-field input {
+  padding: 0 7%;
+  border: none;
+  border-bottom: 2px solid var(--border-color);
+  width: 100%;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+.input-field input:focus {
+  border-bottom: 2px solid var(--accent-color);
+}
+input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+.email-input {
+  background: var(--bg-color) url(/images/email.svg) no-repeat;
+  background-size: contain - 10%;
+  background-position-y: center;
+}
+
+.username-input {
+  background: var(--bg-color) url(/images/user.svg) no-repeat;
+  background-size: contain - 10%;
+  background-position-y: center;
+}
+.password-input,
+.confirm-pass-input {
+  background: var(--bg-color) url(/images/password.svg) no-repeat;
+  background-size: contain - 10%;
+  background-position-y: center;
+}
+
+.login-additional {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid var(--border-color);
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.checkbox:checked + label::before {
+  border-color: var(--accent-color);
+  background-color: var(--bg-color);
+  background-image: url(/images/checked.svg);
+  background-size: cover;
+}
+
+.login-additional a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.login-additional a:hover {
+  color: var(--accent-color);
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.login-button-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.login-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--accent-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login-button a{
+  color: var(--button-text-color);
+  text-decoration: none;
+}
+
+
+.login-button:hover {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+}
+
+.login-button:hover a{
+  color: var(--text-color);
+}
+
+.use-social {
+  margin: 2em auto;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-second-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.socials {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+}
+.socials a {
+  padding: 0 0.5em;
+}
+
+.login-success-window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+}
+.login-success-window:target {
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;
+}
+.modal-inner {
+  position:relative;
+  margin: auto;
+  width: 20%;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  background-clip: padding-box;
+  border: 1px solid var(--border-color);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+
+.close {
+  float: right;
+  margin: 0.1em;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text-color);
+  opacity: 0.5;
+  text-decoration: none;
+}
+.close:focus, .close:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .75;
+}
+.modal-body{
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  padding: 15px;
+  overflow: auto;
+}

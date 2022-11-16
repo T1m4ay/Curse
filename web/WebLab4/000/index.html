@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lesson5</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="/js/srcipt.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <!-- Page header -->
+    <header id="home-section">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img src="images\logo.png" /></a>
+        </div>
+        <nav class="primary-nav">
+          <ul>
+            <li class="active"><a href="#home-section">HOME</a></li>
+            <li><a href="#about-section">ABOUT US</a></li>
+            <li><a href="#portfolio-section">PORTFOLIO</a></li>
+            <li><a href="#services-section">SERVICES</a></li>
+            <li><a href="#blog-section">BLOG</a></li>
+            <li><a href="#contact-section">CONTACT US</a></li>
+            <li><button id="dark-light-button" type="button" onclick="toLightDark()" class="dark-light-button"></button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="wrapper">
+      <!-- Main photo -->
+      <section class="main_photo container">
+        <div class="photo"></div>
+      </section>
+
+      <!-- Text desctiption -->
+      <section id="about-section" class="about container">
+        <section class="about-1">
+          <h3 class="theme">
+            <img src="/images/arrow.png" alt="arrow.png" /> ABOUT US
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <a class="read" href="#">READ MORE</a>
+        </section>
+
+        <section class="about-1">
+          <h3 class="theme">
+            <img src="/images/arrow.png" alt="arrow.png" /> OUR BENEFITS
+          </h3>
+          <ul class="inside_arrow">
+            <li>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mattis enim ut tellus elementum sagittis vitae et leo.
+              </p>
+            </li>
+            <li>
+              <p>
+                Maecenas pharetra convallis posuere morbi leo urna. Id aliquet
+                risus feugiat in ante metus dictum at. Odio morbi quis commodo
+                odio aenean sed adipiscing diam.
+              </p>
+            </li>
+            <li>
+              <p>
+                Nibh nisl condimentum id venenatis a condimentum vitae. Proin
+                sagittis nisl rhoncus mattis rhoncus urna neque viverra justo.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="about-1">
+          <h3 class="theme">
+            <img src="/images/arrow.png" alt="arrow.png" /> TESTIMONIALS
+          </h3>
+          <blockquote cite="https://loremipsum.io/ru/generator/?n=2&t=p">
+            <p>
+              Egestas egestas fringilla phasellus faucibus scelerisque eleifend
+              donec pretium vulputate. Consectetur a erat nam at lectus urna
+              duis.
+            </p>
+            <p><cite>Assel, IITU.EDU</cite></p>
+          </blockquote>
+        </section>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio-section" class="portfolio container">
+        <h3 class="theme">
+          <img src="/images/arrow.png" alt="arrow.png" /> OUR PORTFOLIO
+        </h3>
+        <div class="portfolio-row">
+          <section class="portfolio-1">
+            <img src="images\portfolio_1.jpg" alt="portfolio_1" />
+            <a class="view" href="">VIEW</a>
+          </section>
+          <section class="portfolio-1">
+            <img src="images\portfolio_2.jpg" alt="portfolio_2" />
+            <a class="view" href="">VIEW</a>
+          </section>
+          <section class="portfolio-1">
+            <img src="images\portfolio_3.jpg" alt="portfolio_3" />
+            <a class="view" href="">VIEW</a>
+          </section>
+          <section class="portfolio-1">
+            <img src="images\portfolio_4.jpg" alt="portfolio_4" />
+            <a class="view" href="">VIEW</a>
+          </section>
+        </div>
+      </section>
+
+      <section class="blog-contact-section container">
+        <section id="blog-section" class="blog-contact-1 blog">
+          <h4 class="theme">
+            <img src="/images/arrow.png" alt="arrow.png" /> BLOG
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </section>
+
+        <section id="contact-section" class="blog-contact-1 contact">
+          <h4 class="theme">
+            <img src="/images/arrow.png" alt="arrow.png" /> CONNECT WITH US
+          </h4>
+          <a href="https://twitter.com/home"
+            ><img src="images\twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="images\facebook.png" alt="facebook"
+          /></a>
+          <a href="http://flickr.com/"
+            ><img src="images\flickr.png" alt="flickr"
+          /></a>
+          <a href="https://ru.wikipedia.org/wiki/RSS"
+            ><img src="images\rss.png" alt="rss"
+          /></a>
+        </section>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer class="primary-footer">
+      <section class="container">
+        <nav class="footer_navigation">
+          <ul>
+            <li><a href="#home-section">HOME |</a></li>
+            <li><a href="#about-section"> ABOUT US |</a></li>
+            <li><a href="#portfolio-section"> PORTFOLIO |</a></li>
+            <li><a href="#services-section"> SERVICES |</a></li>
+            <li><a href="#blog-section"> BLOG |</a></li>
+            <li><a href="#contact-section"> CONTACT US</a></li>
+          </ul>
+          <small>&#169; Essenbay Assel. IITU</small>
+        </nav>
+
+        <div class="mini_logo">
+          <img src="images/logo-footer.png" alt="logo" />
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

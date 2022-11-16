@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="task2">
+        <div class="head">
+            <h2>Task 2</h2>
+            <p>Between 1 and 20</p>
+            <p>Trial #<span id="guess_count">0</span></p>
+        </div>
+        <div class="guess">
+            <label for="userNumber">Guesss the number </label>
+            <input class="input-guess" id="userNumber" type="number" placeholder="0" min="0" max="20">
+            <button id="submit_guess" type="submit">Check</button>
+        </div>
+        <div class="result">
+            <div class="result-text" id="result_text">Start catching</div> 
+            <button id="reset_guess" type="reset">Again</button>
+        </div>
+    </div>
+    
+</body>
+<script>
+    console.log("-----TASK 1-----")
+    const arr1 = [17, 21, 23];
+    const arr2 = [12, 5, -5, 0, 4];
+
+    const printForecast = (arr) => {
+    let str = '';
+    for (let i = 0; i < arr.length; i++) {
+        str += `${arr[i]}ºC in ${i + 1} days...\n`;
+    }
+    console.log('... ' + str);
+    };
+
+    printForecast(arr1);
+    printForecast(arr2);
+</script>
+<script src="task2.js"></script>
+</html>

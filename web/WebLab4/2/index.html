@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2 Task 2</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="/js/srcipt.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo"><h3>Your Logo</h3></div>
+      <div class="banner-container"></div>
+      <div class="login">
+        <form class="login-form" action="#open-success-window" target="_self">
+          <section class="theme">
+            <h2 class="theme">Sing in</h2>
+            <button
+              id="dark-light-button"
+              type="button"
+              onclick="toLightDark()"
+              class="dark-light-button"
+            ></button>
+          </section>
+          <p class="description">If you don't have an account register</p>
+          <p class="description">
+            You can <a href="register.html">Register here !</a>
+          </p>
+          <section class="input-section">
+            <div class="input-field">
+              <label for="email-label">Email</label> <br />
+              <span class="email-icon"></span>
+              <input
+                class="email-input"
+                type="text"
+                id="email"
+                class="emal"
+                placeholder="Enter your emal address"
+              />
+            </div>
+            <div class="input-field">
+              <label for="password-label">Password</label><br />
+              <span class="password-icon"></span>
+              <input
+                class="password-input"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your Password"
+              />
+            </div>
+
+            <div class="login-additional">
+              <section class="checkbox-section">
+                <input
+                  type="checkbox"
+                  class="checkbox"
+                  id="remember"
+                  name="remember"
+                  value="remember"
+                />
+                <label for="remember">Remember me</label>
+              </section>
+              <small><a href="">Forgot password ?</a></small>
+            </div>
+          </section>
+          <section class="login-button-container">
+            <button class="login-button" onclick=""><a href="#login-success-window">Login</a></button>
+          </section>
+          <section class="use-social">
+            <p>or continue with</p>
+            <div class="socials">
+              <div class="google">
+                <a href="##"><img src="/images/google.svg" alt="google" /></a>
+              </div>
+              <div class="apple">
+                <a href="##"><img src="/images/apple.svg" alt="apple" /></a>
+              </div>
+              <div class="facebook">
+                <a href="##"
+                  ><img src="/images/Facebook.svg" alt="facebook"
+                /></a>
+              </div>
+            </div>
+          </section>
+        </form>
+      </div>
+    </div>
+    <div class="login-success-window" id="open-success-window">
+      <div class="modal-inner">
+        <div class="modal-header">
+          <a href="#close" title="Close" class="close">×</a>
+        </div>
+        <div class="modal-body">
+          <h2>Login success!</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,646 @@
+a {
+  color: #2a81dd;
+  text-decoration: underline;
+  text-decoration-color:#2a81dd;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+.edge {
+  display: flex;
+  margin-right: 9%;
+  margin-left: 9%;
+}
+.headerLogo {
+  display: flex;
+  padding-top:13px;
+  padding-bottom:13px;
+  padding-left:10px;
+}
+.logoItem {
+  height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.headerLine {
+  width: 1px;
+  height: 100%;
+  background-color: rgb(219, 219, 219);
+}
+.headerMenu {
+  padding-top: 13px;
+  padding-left: 670px;
+  display: flex;
+}
+.headerMenuItem {
+  padding-top: 5px;
+  padding-left: 30px;
+  color: rgb(54, 54, 218);
+}
+.shadowbox {
+  height: 1px;
+  background-color: rgb(235, 231, 231);
+  box-shadow:0 2px 10px 0 rgba(43, 34, 36, 0.5);
+}
+.headerMain {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+}
+.mainItem {
+  padding-left: 10px;
+  width: 170px;
+}
+.headerMainMenu {
+  display: flex;
+  padding-left: 40px;
+}
+.headerMainItem {
+  font-size: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  color: rgb(0, 0, 0);
+}
+.headerMainItemOff {
+  font-size: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  color: rgb(54, 54, 218);
+}
+.blueDash {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(54, 54, 218);
+}
+.headerAdd {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.headersAd {
+  display: flex;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+
+  background: white;
+  border: 0.6px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0 rgb(244, 244, 244);
+
+  text-align: center;
+}
+.headerMainItemAdd {
+  padding-top: 8px;
+  padding-left: 8px;
+  text-align: center;
+  color: rgb(54, 54, 218);    
+}
+.addbox {
+  padding-top: 6px;
+  padding-left: 14px;
+}
+.addboxitem {
+  height: 20px;
+  color: rgb(54, 54, 218);
+}
+.countAdd {
+  padding-left: 32px;
+  font-style: normal;
+  color: rgb(92, 92, 92);
+}
+.arrowdown {
+  color: rgb(54, 54, 218);
+}
+.menuListItems {
+  width: 1300px;
+  height: 65px;
+  margin-top: 15px;
+  margin-left: 20px;  
+  border-radius: 3px;
+  background-color: #fae8bb;
+  display: flex;
+}
+.listItem {
+  color: #2a81dd;
+  margin-left: 25px;
+  padding-top: 20px;
+  margin-bottom: 22px;
+  border-bottom: 1px dotted;
+}
+.listItem:hover {
+  color: red;
+  border-bottom: none;
+}
+.hotHead {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.hotHeadItem {
+  font-size: 1.4em;
+}
+.hotHeadItem2 {
+  color: #2a81dd;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+.hotIcon {
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.hotBody {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.hotBodyPhoto1 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 10px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto2 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 155px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto3 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 300px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto4 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 445px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto5 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 590px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto6 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 735px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto7 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 880px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto8 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 1025px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto9 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 1170px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto10 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 10px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto11 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 155px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto12 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 300px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto13 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 445px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto14 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 590px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto15 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 735px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto16 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 880px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto17 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 1025px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto18 {
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 1170px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto19 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 10px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto20 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 155px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto21 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 300px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto22 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 445px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto23 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 590px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto24 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 735px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto25 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 880px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto26 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 1025px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto27 {
+  position: absolute;
+  margin-top: 227px;
+  margin-left: 1170px;
+  width: 135px;
+  height: 100px;
+}
+.hotBodyPhoto1:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto2:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto3:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto4:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto5:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto6:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto7:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto8:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto9:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto10:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto11:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto12:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto13:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto14:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto15:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto16:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto17:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto18:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto19:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto20:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto21:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto22:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto23:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto24:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto25:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto26:hover {
+  width: 200px;
+  height: 130px;
+}
+.hotBodyPhoto27:hover {
+  width: 200px;
+  height: 130px;
+}
+.leftIcon {
+  margin-top: 350px;
+  margin-left: 1380px;
+  margin-right: 10px;
+  border: 0.6px solid #eaeaea;
+  border-radius: 5px;
+  color: #2a81dd;
+}
+.leftIcon:hover { 
+  border: 0.6px solid #2a81dd;
+}
+.iconItem {
+  margin-top: 4px;
+  margin-left: 2px;
+}
+.rightIcon {
+  margin-top: 350px;  
+  margin-right: 250px;
+  border: 0.6px solid #eaeaea;
+  border-radius: 5px;
+  color: #2a81dd;
+}
+.rightIcon:hover {
+  border: 0.6px solid #2a81dd;
+}
+.navigationIcon {
+  display: flex;
+}
+.centerText {
+  text-align: center;
+  font-size: 1.4em;
+}
+.centerText1 {
+  margin-top: 5px;
+  font-size: 0.8em;
+  text-align: center;
+}
+.edgeHR {
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 20px;
+  color: gray;
+}
+.mainEdge {
+  margin-right: 10px;
+}
+.kolesaGid {
+  margin-top: 40px;
+  width: 850px;
+  height: 250px;
+  display: flex;
+  background-color: #2a81dd;
+  position: relative;
+   overflow:hidden;
+}
+.kolesaGidText {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.kolesaGidTextItem {
+  height: 100px;
+  color: white;
+  font-size: 1.3em;
+}
+.gidButtom {
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  width: 230px;
+  height: 40px;
+}
+.gidButtom:hover {
+  transition: all .15s ease-out;
+  box-shadow: 2px 4px 10px 0 rgb(28 24 25 / 12%);
+}
+.gidButtomText {
+  color: #2a81dd;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.gidButtomText:hover {
+  color: red;
+}
+.phonePhoto {
+  overflow: hidden;
+  margin-right: 70px;
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+}
+.headMark {
+  font-size: 1.25em;
+  margin-top: 10px;
+}
+.markLink {
+  padding-right: 20px;
+}
+.markTool {
+  display: flex;
+}
+.markToolColor {
+  display: flex;
+  color: #2a81dd;
+}
+.markToolColor:hover {
+  color: red;
+}
+.markToolItem {
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 22px;
+  border-bottom: 1px dotted #06c;;
+}
+.arrowdownmark {
+  margin-top: 15px;
+}
+.collumMark {
+  display: block;
+  padding-right: 70px;
+}
+.markItem {
+  padding-bottom: 0.24em;
+}
+.otherPhotoBody {
+  margin-top: 20px;
+}
+.otherPhoto1{
+  position: absolute;
+  margin-top: 7px;
+  width: 135px;
+  height: 100px;
+}
+.otherPhoto2{
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 155px;
+  width: 135px;
+  height: 100px;
+}
+.otherPhoto3{
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 310px;
+  width: 135px;
+  height: 100px;
+}
+.otherPhoto4{
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 465px;
+  width: 135px;
+  height: 100px;
+}
+.otherPhoto1:hover {
+  width: 200px;
+  height: 130px;
+}
+.otherPhoto2:hover {
+  width: 200px;
+  height: 130px;
+}
+.otherPhoto3:hover {
+  width: 200px;
+  height: 130px;
+}
+.otherPhoto4:hover {
+  width: 200px;
+  height: 130px;
+}
+.collumOther{
+  padding-right: 70px;
+  margin-top: 140px;
+}
+.vievadd {
+  box-sizing: border-box;
+  position: absolute;
+  width: 473px;
+  height: 240px;
+  left: 20%;
+  top: 1100px;
+  background: rgb(189, 181, 167);
+  border: 0.4px solid #282828;
+  border-radius: 4px;
+  font-size: 0.9em;
+  display: none;
+}
+.vievadd.on {
+  display: block;
+}
