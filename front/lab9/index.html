@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>lab 9</title>
+  </head>
+  <body>
+  <div class="buttons">
+    <button id="but" onclick="modalOpen1()">
+      Show Modal 1
+    </button>
+    <button id="but" onclick="modalOpen2()">
+      Show Modal 2
+    </button>
+    <button id="but" onclick="modalOpen3()">
+      Show Modal 3
+    </button>
+  </div>
+  <div>
+    <div id="mod1" class="modal">
+      This is first modal window
+      <button id="close" onclick="modalClose1()">
+        Exit
+      </button>
+    </div>
+    <div id="mod2" class="modal">
+      This is second modal window
+      <button id="close" onclick="modalClose2()">
+        Exit
+      </button>
+    </div>
+    <div id="mod3" class="modal">
+      This is third modal window
+      <button id="close" onclick="modalClose3()">
+        Exit
+      </button>
+    </div>
+  </div>
+  </body>
+  <script src="script.js"></script>
+</html>

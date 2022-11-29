@@ -629,18 +629,14 @@ a:hover {
   margin-top: 140px;
 }
 .vievadd {
-  box-sizing: border-box;
-  position: absolute;
-  width: 473px;
-  height: 240px;
-  left: 20%;
-  top: 1100px;
-  background: rgb(189, 181, 167);
-  border: 0.4px solid #282828;
-  border-radius: 4px;
-  font-size: 0.9em;
-  display: none;
+  top: "50%";
+  left: "50%";
+  right: "auto";
+  bottom: "auto";
+  margin-right: "-50%";
+  transform: "translate(-50%, -50%)";
 }
-.vievadd.on {
-  display: block;
+.close {
+  margin-left: 453px;
+  margin-top: 5px;
 }

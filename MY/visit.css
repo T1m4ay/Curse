@@ -1,0 +1,86 @@
+/* .separator{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+.separator.Default{
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid var(--tooltip-color);
+}
+
+
+
+
+
+.points_hr  hr {
+    margin: 0px auto!important;
+    border-width: 0 0 8px;
+    border-style: solid;
+    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="rgb(191, 226, 255)" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
+    width: 216px;
+}
+div#fade-container {
+    overflow-wrap: anywhere;
+}
+#fade-content{
+
+}
+
+.button--size_big {
+    padding: 0;
+}
+.сatalog-main{
+    padding-top: 0px !important;
+}
+
+body .button--size_big > *{
+    overflow-x: hidden;
+}
+
+.gray{
+    cursor: default !important; 
+    background: gray;
+    border: none !important;
+}
+
+
+html body .swiper-pagination {
+    position: relative;
+
+}
+.swiper-button-next, .swiper-button-prev{
+    top: unset;
+    transform: translateY(-185px);
+}
+
+
+
+
+.swiper-gallery-container{
+    overflow-y: hidden;
+}
+
+.minicro span{
+    display: none;
+}
+.minicro img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 550px){
+    .productButton{
+        width: 125px;
+        font-size: 10px;
+        height: 35px;
+    }
+    .productButton-img {
+        width: 15px;
+        height: 15px;
+    }
+} */

@@ -1,0 +1,13 @@
+body{
+    color: white;
+    background: #222;
+    text-align: center;
+}
+
+#fcolor{
+    background: red;
+}
+
+#scolor{
+    background: blue;
+}

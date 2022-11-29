@@ -1,0 +1,14 @@
+
+.buttons {
+    display: flex;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px); 
+    display: none;
+}
+
+.modal.on {
+    display: block;
+}
